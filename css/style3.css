@@ -1,0 +1,97 @@
+/* CSS Document */
+
+
+/* CSS Document */
+* {
+	margin: 0;
+	padding:0;
+	outline:none;
+	-webkit-transition:all 300ms ease-in;
+	-moz-transition:all 300ms ease-in;
+	-o-transition:all 300ms ease-in;
+	-ms-transition:all 300ms ease-in;
+	transition:all 300ms ease-in;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.clear {
+	clear:both;
+}
+a:active {
+	opacity:.2;
+}
+body {
+	font-family:"Segoe UI";
+	font-weight:100;
+	background:#f9fbfd;
+	font-size: 14px;
+}
+header {
+	border-bottom: 1px solid rgba(0, 0, 0, .12);
+	background:#00FFCC;
+	height: 75px;
+	color:d9e6f1;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.56);
+}
+header h1.main-title {
+	font-weight: lighter;
+	font-size: 20px;
+	padding: 22px;
+	color:d9e6f1;
+}
+header .right {
+	padding: 22px;
+}
+header a {
+	margin-left: 13px;
+	/*background: url('./images/logout-icon.png') no-repeat 9px center #fff;*/
+	color: #33904d;
+	padding: 8px 8px 8px 11px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+menu.main {
+	height:auto;
+	background:#d5fce9;
+	width:200px;
+	color:7c848d;
+}
+menu.main:after {
+	content: '';
+	background:#d5fce9;
+	width: 200px;
+	position: absolute;
+	left: 0;
+	top: 104px;
+	bottom: 0px;
+	z-index: -1;
+}
+menu.main h3 {
+	font-weight: lighter;
+	padding: 23px 23px 10px 23px;
+	color: 0072bb;
+}
+menu.main a {
+	display: block;
+	padding: 5px 25px;
+	text-decoration: none;
+	color: 7b7d7f;
+	border-bottom: 1px solid #1f1f1f;
+}
+menu.main a:hover, menu.main a.active {
+	background:#00FFCC;
+	color:cbdfee;
+}
+section.contents {
+	padding-left:20px;
+	padding-top:20px;
+	width:555px;
+}
+.title {
+	font-weight: lighter;
+	color:#1c7836;
+}

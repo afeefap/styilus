@@ -1,0 +1,207 @@
+
+body{
+background:url(images/main_bg.jpg) repeat-x ;
+margin:0px;
+font-family:Verdana;
+font-size:12px;
+color:#686766;
+outline:none;
+}
+.wrkshp_logo{
+height:115px;
+width:136px;
+margin:4px;
+background:#06cde0;
+cursor:pointer;
+padding:5px;
+float:left;
+/*border:2px dashed #fff;
+-moz-border:2px dashed  #fff;
+*/
+-webkit-transition:2s;
+-moz-transition:2s;
+font-weight:bold;
+font-family:Tahoma, Geneva, sans-serif;
+color:#fff;
+}
+.wrkshp_logo:hover{
+/*-webkit-transform:rotateZ(360deg);
+-moz-transform:rotateZ(360deg);*/
+-webkit-transition:2s;
+-moz-transition:2s;
+width:291px;
+}
+#main_container{
+width:1010px;
+height:auto;
+margin:auto;
+}
+.head_top
+{
+width:1010px;
+height:80px;
+}
+.banner_left{
+width:15px;
+height:383px;
+float:left;
+background:url(images/banner_left.jpg) no-repeat;
+}
+
+#button_bar_div{
+width:1010px;
+height:60px;
+float:left;
+background:url(images/banner_left.jpg) repeat-x;
+}
+
+.button_bar_left{
+width:15px;
+height:60px;
+float:left;
+background-image:url(images/button_bar_left.jpg);
+}
+
+.button_bar{
+width:980px;
+height:60px;
+float:left;
+text-align:center;
+color:#000000;
+font-weight:bold;
+font-family:Arial;
+font-size:13px;
+background:url(images/buttun_bar_bg.jpg) repeat-x;
+}
+.buttons_div:hover{
+width:122px;
+height:38px;
+padding-top:22px;
+background:url(images/btn_hover.jpg) repeat-x;
+color:#FFFFFF;
+float:left;
+}
+.buttons_div{
+width:122px;
+height:38px;
+padding-top:22px;
+color:#000000;
+float:left;
+
+}
+
+.buttons_div:hover{
+width:122px;
+height:38px;
+padding-top:22px;
+background:url(images/btn_hover.jpg) repeat-x;
+color:#FFFFFF;
+float:left;
+}
+
+.button_bar_right{
+width:15px;
+height:60px;
+float:left;
+background-image:url(images/button_bar_right.jpg);
+}
+.banner_right{
+width:15px;
+height:383px;
+float:left;
+background:url(images/banner_right.jpg) no-repeat;
+}
+.banner{
+width:980px;
+height:383px;
+float:left;
+}
+#top_bar{
+width:1010px;
+height:109px;
+float:left;
+}
+.team {width:210px; padding:10px; float:left; height:350px;line-height:16px;}
+.team_sep {border-left: dashed 1px #CCC; height:350px; float:left; margin-right:13px; margin-left:13px;} 
+.team_img
+{ width:189px; height:121px; margin-bottom:10px; padding:3px; border: solid 1px #ccc;}
+h2 { color:#06cde0; font-weight:bold; font-size:16px; font-family:Tahoma, Geneva, sans-serif}
+#footer{
+width:100%;
+clear:both;
+height:233px;
+background:#06cde0;
+clear:both;
+}
+
+.footer{
+width:1000px;
+height:233px;
+margin:auto;
+}
+.logo{
+width:403px;
+height:52px;
+margin-top:40px;
+float:left;
+background:url(images/LOGO.png);
+}
+.footer_top{
+width:980px;
+height:50px;
+
+}
+
+.short_abtus{
+width:501px;
+height:170px;
+float:left;
+	color:#FFF;
+
+}
+.short_abtus_free
+{
+	width:501px;
+	height:10px;
+}
+.footer_div_gap
+{
+width:32px;
+height:170px;
+float:left;
+}
+.copy_right_div_free
+{
+	width:287px;
+	height:10px;
+}
+.copy_right_div
+{
+width:225px;
+height:170px;
+float:left;
+}
+.our_contacts_div{
+width:210px;
+height:170px;
+float:left;
+}
+.our_contacts_div_free
+{
+	width:210px;
+	height:10px;
+	clear:both;
+}
+.social
+{
+	width:28px;
+	height:28px;
+	float:left;	
+}
+.social_captn
+{
+	float:left;
+	margin-left:15px;
+	color:#FFF;
+}
+
