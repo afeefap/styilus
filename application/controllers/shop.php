@@ -13,12 +13,12 @@ class Shop extends CI_Controller {
 
     public function newacc()
     {
-        $this->load->view('$this->vfolder/new_acc');
+        $this->load->view("$this->vfolder/new_acc");
     }
 
     public function forgot()
     {
-        $this->load->view('$this->vfolder/forgot');
+        $this->load->view("$this->vfolder/forgot");
     }
 
     public function ok()
