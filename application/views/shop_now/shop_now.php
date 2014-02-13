@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 </head>
 <?php  
-echo form_open('shop_now_controller/ok/');
+echo form_open('shop/ok/');
 ?>
 <body>
 <form method="post">

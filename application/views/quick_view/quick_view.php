@@ -17,7 +17,7 @@
             </li>
             <li><a href="Career.php" target="_parent" style="text-decoration:none"> Career</a></li>
             <li><a href="100%.php" target="_parent" style="text-decoration:none"> 100% gurantee</a></li>
-            <li><a href="index.php/shop_now_controller/" target="_parent" style="text-decoration:none">Shop Now</a></li>
+            <li><a href="<?=site_url('shop')?>" target="_parent" style="text-decoration:none">Shop Now</a></li>
             <li><a href="Contact.php" target="_parent" style="text-decoration:none"> Contact</a></li>
           </ul>
 </nav>

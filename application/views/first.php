@@ -25,7 +25,7 @@
             </li>
             <li><a href="#" target="_parent" style="text-decoration:none" onclick="changecontent(<?php  $id=2;echo $id;?>)"> Career</a></li>
             <li><a href="#" target="_parent" style="text-decoration:none" onclick="changecontent(<?php  $id=3;echo $id;?>)"> 100% gurantee</a></li>
-            <li><a href="index.php/shop_now_controller/" target="_parent" style="text-decoration:none">Shop Now</a></li>
+            <li><a href="<?=site_url('shop')?>" target="_parent" style="text-decoration:none">Shop Now</a></li>
             <li><a href="#" target="_parent" style="text-decoration:none" onclick="changecontent(<?php  $id=4;echo $id;?>)"> Contact</a></li>
           </ul>
 </nav>
