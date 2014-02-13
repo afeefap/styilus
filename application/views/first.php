@@ -33,7 +33,7 @@
 <!-- # Main Menu -->
 <section class="contents left">
 
-    	<iframe src="index.php/welcome/image" width="800" height="600" frameborder="0" scrolling="no"  id="eventFrame" style="margin:-8px; margin:30px;"></iframe>
+<iframe src="<?site_url('welcome/image')?>" width="800" height="600" frameborder="0" scrolling="no"  id="eventFrame" style="margin:-8px; margin:30px;"></iframe>
 
 
 </section>
@@ -43,24 +43,24 @@
 
 		if(id==1)
 		{
-			src="index.php/welcome/aboutus";
+            src="<?=site_url('welcome/aboutus')?>";
 
 		}
 		if(id==2)
 		{
-			src="index.php/welcome/career";
+            src="<?=site_url('welcome/career')?>";
 		}
 		if(id==3)
 		{
-			src="index.php/welcome/gurantee";
+            src="<?=site_url('welcome/gurantee')?>";
 		}
 		if(id==4)
 		{
-			src="index.php/welcome/contactus";
+            src="<?=site_url('welcome/contactus')?>";
 		}
 		if(id==0)
 		{
-			src="index.php/welcome/image";
+            src="<?=site_url('welcome/image')?>";
 		}
 		
 		
