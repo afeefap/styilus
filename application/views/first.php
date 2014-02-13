@@ -10,7 +10,7 @@
           <h1 class="left main-title">STYLY</h1>
           <p class="left main-title">
   <div class="right"> <span>Welcome</span>	
-  <a href="index.php/Quick_view_controller/" >Qiuckview</a>
+  <a href="<?=site_url('quickview')?>" >Qiuckview</a>
  </div>
 
         </header>

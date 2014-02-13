@@ -1,16 +1,14 @@
 <?php
-class Quick_view_controller extends CI_Controller {
-	public function index()
-	{
-		$this->load->helper('url');
+class QuickView extends CI_Controller {
+    
+    public function index()
+    {
+        $this->load->view('quick_view/quick_view');
+    }
 
-				$this->load->view('quick_view/quick_view');
-	}
-	public function newacc()
-	{
+    public function newacc()
+    {
+        $this->load->view('shop_now/new_acc');
+    }
 
-				$this->load->view('shop_now/new_acc');
-	}
-	
-	
 }
