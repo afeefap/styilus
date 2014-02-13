@@ -27,8 +27,8 @@ echo form_open('shop/ok/');
  			<td><input name="OK" type="submit" value="LOGIN" />
  		</tr> 
 		<tr>
- 			<td><a href="newacc" target="_parent" style="text-decoration:none">New account</a></td>
- 			<td><a href="forgot" target="_parent" style="text-decoration:none">Forgot Password</a></td>
+        <td><a href="<?=site_url('shop/newacc')?>" target="_parent" style="text-decoration:none">New account</a></td>
+            <td><a href="<?=site_url('shop/forgot')?>" target="_parent" style="text-decoration:none">Forgot Password</a></td>
  		</tr>
 
 	</table>
