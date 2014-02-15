@@ -10,7 +10,7 @@
           <h1 class="left main-title">STYLY</h1>
           <p class="left main-title">
   <div class="right"> <span>Welcome</span>	
-  <a href="<?=site_url('quickview')?>" >Qiuckview</a>
+  <a href="<?php echo site_url('QuickView'); ?>" >Qiuckview</a>
  </div>
 
         </header>
@@ -33,7 +33,7 @@
 <!-- # Main Menu -->
 <section class="contents left">
 
-<iframe src="<?site_url('welcome/image')?>" width="800" height="600" frameborder="0" scrolling="no"  id="eventFrame" style="margin:-8px; margin:30px;"></iframe>
+<iframe src="<?php echo site_url('welcome/image'); ?>" width="800" height="600" frameborder="0" scrolling="no"  id="eventFrame" style="margin:-8px; margin:30px;"></iframe>
 
 
 </section>

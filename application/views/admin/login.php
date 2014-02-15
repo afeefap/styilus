@@ -7,5 +7,29 @@
 
 <body>
 <h1> admin login page is here</h1>
+<?php  
+echo form_open('admin_controller/admin_login');
+?>
+<form method="post">
+	<table width="357" border="0">
+   		<tr>
+   			<td colspan="2"><h1>LOGIN</h1></TD>
+  		</tr>
+  		<tr>
+    		<td width="203"><label>Enter your Username:</label></td>
+    		<td width="144"><input type="text" name="user" /></td>
+  		</tr>
+  		<tr>
+    		<td><label>Enter your password :</label></td>
+    		<td><input type="password" name="pass" /></td>
+ 
+  		</tr>
+ 		<tr>
+ 			<td></td>
+ 			<td><input name="OK" type="submit" value="LOGIN" />
+ 		</tr> 
+        </table>
+        </form>
+        
 </body>
 </html>
