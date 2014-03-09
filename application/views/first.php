@@ -3,18 +3,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
-<link rel="stylesheet" type="text/css" href="css/style3.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo(base_url());?>css/style3.css" />
 </head>
 <!-- Header -->
-<header>
-          <h1 class="left main-title">STYLY</h1>
-          <p class="left main-title">
-  <div class="right"> <span>Welcome</span>	
-  <a href="<?php echo site_url('QuickView'); ?>" >Qiuckview</a>
- </div>
-
-        </header>
-<!-- # Header --> 
+<body>
+ <?php require 'template/header.php'; ?>
 <!-- Main Menu --> 
 <menu class="main left">
         <h3>Menu</h3>
@@ -68,6 +61,7 @@
 
 	}
 	</script>
-<body>
-</body>
-</html>
+    
+ <?php require 'template/footer.php'; ?>
+
+

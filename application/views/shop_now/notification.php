@@ -6,6 +6,16 @@
 </head>
 
 <body>
-<h1>this is the page for notification</h1>
+<h1>Notification</h1>
 </body>
+<form>
+<table width="200" border="1">
+  <tr>
+    <td>label:Notification</td>
+    <textarea name="notify" cols="" rows=""></textarea>
+  </tr>
+</table>
+
+
+</form>
 </html>

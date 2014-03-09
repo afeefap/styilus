@@ -19,7 +19,9 @@ class Welcome extends CI_Controller {
      */
     public function index()
     {
+		
         $this->load->view('first.php');
+
     }
     
     public function aboutus()

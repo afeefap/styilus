@@ -3,58 +3,88 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Untitled Document</title>
-</head>
+<link rel="stylesheet" type="text/css" href="<?php echo(base_url());?>/css/newacc.css"/>
+
+
+<h3>REGISTER ACCOUNT</h3>
 <body>
-<form>
+<?php echo form_open('Shop/newacc1');?>
+
+  <fieldset>
+    <legend>Your Personal Information </legend>
+    <table width="447" border="0">
+      <tr>
+        <td width="119"><label> First Name :</label></td>
+        <td width="144"><input name="firstname" type="text" required="required"/></td>
+</td>
+      </tr>
+      <tr>
+        <td><label> Last Name :</label></td>
+        <td><input name="lastname" type="text" required="required" /></td>
+      </tr>
+      <tr>
+        <td><label>Email :</label></td>
+        <td><input name="email" type="email" required="required"/></td>
+
+      </tr>
+      <tr>
+        <td><label>Mobile Number :</label></td>
+        <td><input name="mob" type="text"  required="required"/></td>
+       <tr>
+        <td><label>Fax :</label></td>
+        <td><input name="fax" type="text" required="required" /></td>
+        
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>Your address</legend>
+    <table border="0">
+        <td><label>Address:</label></td>
+        <td><textarea name="address" cols="" rows="" required="required" ></textarea></td>
+      </tr>
+      <tr>
+        <td><label>City :</label></td>
+        <td><input name="city" type="text" required="required"/></td>
+      </tr>
+      <tr>
+        <td><label>Postcode :</label></td>
+        <td><input name="postcode" type="text" required="required"/></td>
+      </tr>
+      <tr>
+        <td><label>District:</label></td>
+        <td><input name="district" type="text" required="required" /></td>
+      </tr>
+      <tr>
+        <td><label>State:</label></td>
+        <td><input name="state" type="text" required="required"/></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>Your Password</legend>
+    <table border="0">
+      <tr>
+        <td><label>Choose Password :</label></td>
+        <td><input name="password" type="password" required="required"/></td>
+      </tr>
+      <tr>
+        <td><label>Confirm Password :</label></td>
+        <td><input name="cpassword" type="password" required="required" /></td>
+      </tr>
+    </table>
+    </div>
+  </fieldset>
   <table border="0">
     <tr>
-      <td><label>Name :</label></td>
-      <td><input name="name" type="text" /></td>
+      <td><input name="agree" type="checkbox" value="" required="required" />
+        I agree to all the terms and conditins</td>
+        
+      <tr>
+      <td><input name="newsletter" type="checkbox" value="1" />Subscribe Newsletter</td>
     </tr>
     <tr>
-      <td><label>Address:</label></td>
-      <td><textarea name="address" cols="" rows=""></textarea></td>
-    </tr>
-    <tr>
-      <td><label>Shop Name :</label></td>
-      <td><input name="sname" type="text" /></td>
-    </tr>
-    <tr>
-      <td><label>Address of Shop:</label></td>
-      <td><textarea name="shopaddress" cols="" rows=""></textarea></td>
-    </tr>
-    <tr>
-      <td><label>Email :</label></td>
-      <td><input name="email" type="text" /></td>
-    </tr>
-    <tr>
-      <td><label>Choose Password :</label></td>
-      <td><input name="password" type="password" /></td>
-    </tr>
-    <tr>
-      <td><label>Confirm Password :</label></td>
-      <td><input name="Cpassword" type="password" /></td>
-    </tr>
-    <tr>
-      <td><label>Mobile Number :</label></td>
-      <td><input name="mob" type="text" /></td>
-    </tr>
-    <tr>
-      <td><label>Phone(Shop) :</label></td>
-      <td><input name="shopmob" type="text" /></td>
-    </tr>
-    <tr>
-      <td><label>Select your chioce :</label></td>
-      <td><select name="op">
-          <option value="please select.." selected="selected">Please select..</option>
-          <option value="ORANGE">Home Delivary With online Payment </option>
-          <option value="ORANGE">Home Delivary With ontime Payment </option>
-        </select>
-      </td>
-    <tr>
-      <td></td>
-      <td><input name="OK" type="submit" value="OK" /></td>
-    </tr>
+      <td><input name="OK" type="submit" value="REGISTER" /></td>
+      </tr>
   </table>
 </form>
 </body>

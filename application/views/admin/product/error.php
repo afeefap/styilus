@@ -6,6 +6,6 @@
 </head>
 
 <body>
-<h1>WELCOME</h1>
+<?php echo $error;?>
 </body>
 </html>

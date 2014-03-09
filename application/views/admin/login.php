@@ -3,12 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="<?php echo(base_url());?>css/style3.css" />
 </head>
 
 <body>
+
 <h1> admin login page is here</h1>
 <?php  
 echo form_open('admin_controller/admin_login');
+
 ?>
 <form method="post">
 	<table width="357" border="0">

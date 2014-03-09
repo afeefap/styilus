@@ -3,11 +3,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="<?php echo(base_url());?>css/style3.css" />
 </head>
 <?php  
 echo form_open('shop/ok/');
 ?>
 <body>
+
 <form method="post">
 	<table width="357" border="0">
    		<tr>
@@ -15,11 +17,11 @@ echo form_open('shop/ok/');
   		</tr>
   		<tr>
     		<td width="203"><label>Enter your Username:</label></td>
-    		<td width="144"><input type="text" name="user" /></td>
+    		<td width="144"><input type="text" name="username" /></td>
   		</tr>
   		<tr>
     		<td><label>Enter your password :</label></td>
-    		<td><input type="password" name="pass" /></td>
+    		<td><input type="password" name="password" /></td>
  
   		</tr>
  		<tr>
@@ -35,4 +37,5 @@ echo form_open('shop/ok/');
 </form>
 
 </body>
+
 </html>

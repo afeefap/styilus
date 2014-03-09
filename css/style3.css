@@ -32,7 +32,7 @@ body {
 }
 header {
 	border-bottom: 1px solid rgba(0, 0, 0, .12);
-	background:#00FFCC;
+	background:#E7F4F5;
 	height: 75px;
 	color:d9e6f1;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.56);
@@ -47,22 +47,20 @@ header .right {
 	padding: 22px;
 }
 header a {
-	margin-left: 13px;
 	/*background: url('./images/logout-icon.png') no-repeat 9px center #fff;*/
-	color: #33904d;
-	padding: 8px 8px 8px 11px;
+	padding: 0px 0px 0px 2px;
 	border-radius: 3px;
 	text-decoration: none;
 }
 menu.main {
 	height:auto;
-	background:#d5fce9;
+	background:#E7F4F5;
 	width:200px;
 	color:7c848d;
 }
 menu.main:after {
 	content: '';
-	background:#d5fce9;
+	background:#E7F4F5;
 	width: 200px;
 	position: absolute;
 	left: 0;
@@ -83,7 +81,7 @@ menu.main a {
 	border-bottom: 1px solid #1f1f1f;
 }
 menu.main a:hover, menu.main a.active {
-	background:#00FFCC;
+	background:#15bcf0;
 	color:cbdfee;
 }
 section.contents {
@@ -94,4 +92,22 @@ section.contents {
 .title {
 	font-weight: lighter;
 	color:#1c7836;
+}
+
+/*footer*/
+#footer{
+    width:  auto;
+    color: #A4A4A4;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 5%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    min-height:30px;
+    clear:both;         
+    border-top:solid 1px;
+}
+.error
+{
+	color:#F00;
 }

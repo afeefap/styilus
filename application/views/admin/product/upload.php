@@ -6,27 +6,72 @@
 </head>
 
 <body>
-<h1>UPLOAD NEW PRODUCT
-<form action="" method="post">
-<table width="288" border="1">
-  <tr>
-    <td width="58">Name :</td>
-    <td width="214"><input name="nam" type="text" /></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td><input name="ok" type="submit" value="OK" /></td>
-  </tr>
-</table>
-<p>&nbsp;</p>
+<?php echo form_open_multipart('admin_controller/do_upload');?>
+<h3>UPLOAD NEW PRODUCT</h3>
+<fieldset>
+  <legend>General</legend>
+  <table width="288" border="0">
+    <tr>
+      <td width="58"><label>Model :</label></td>
+      <td width="214"><input name="name" type="text" /></td>
+    </tr>
+    <tr>
+      <td width="58"><label>Description :</label></td>
+      <td width="214"><textarea name="description" cols="" rows=""></textarea></td>
+    </tr>
+    <tr>
+      <td width="58"><label>Image :</label></td>
+      <td width="214"><input name="upload" type="file" /></td>
+    </tr>
+    <tr>
+      <td>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>Data</legend>
+  <table>
+      </tr>
+    
+    <tr>
+      <td width="58"><label>Price :</label></td>
+      <td width="214"><input name="price" type="text" /></td>
+    </tr>
+    <tr>
+      <td width="58"><label>Quantity :</label></td>
+      <td width="214"><input name="quantity" type="text" /></td>
+    </tr>
+    <tr>
+      <td width="58"><label>Manufactrurer:</label></td>
+      <td width="214"><input name="manufactrurer" type="text" /></td>
+    </tr>
+  </table>
+</fieldset>
+<fieldset>
+  <legend>Link</legend>
+  <table>
+    <tr>
+      <td><label>Category</label></td>
+      <td><select name="category">
+          <option value="please select.." selected="selected">Please select..</option>
+          <option value="ORANGE">ORANGE</option>
+          <option value="ORANGE">APPLE</option>
+          <option value="GRAPES">GRAPES</option>
+        </select>
+    </tr>
+    <tr>
+      <td><label>Related product</label></td>
+      <td><select name="related_product">
+          <option value="please select.." selected="selected">Please select..</option>
+          <option value="ORANGE">ORANGE</option>
+          <option value="ORANGE">APPLE</option>
+          <option value="GRAPES">GRAPES</option>
+        </select>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input name="OK" type="submit" value="OK" /></td>
+  </table>
+</fieldset>
 </form>
 </body>
 </html>
